@@ -1,34 +1,49 @@
+# Cinema Management System 🎬
 
-# Trabajo Práctico - Entradas de Cine 🎬
+## Overview
 
-## Descripción
-Este proyecto consiste en el desarrollo de un sistema de reservas de entradas para una sala de cine, implementando conceptos vistos a lo largo de la cursada
+Console-based cinema reservation system developed in Python as part of a university project.
 
-## Integrantes 🎥
-- **Francisco Kin**
-  
-- **Franco Pelli**
-  
-- **Agustina Mieres**
+The application allows managing movies, users, rooms, reservations, payments, and ticket validation through a structured system implementing object-oriented programming concepts and data management.
 
-## Funcionalidades  🎥 🍿 📽️ 
+## Team
 
-- **Registrar Película**: Permite agregar nuevas películas a la cartelera.
-  
-- **Registrar Horarios para las Películas**: Asigna horarios específicos para las películas disponibles.
-  
-- **Crear Sala para Cierto Horario**: Permite crear una sala específica para un horario, con una cantidad determinada de filas y columnas.
-  
-- **Registro y validación de Usuario**: Facilita el registro de nuevos usuarios en el sistema y asegura que no haya usuarios duplicados
+Originally developed as a university project with:
 
-- **Registrar Datos de Facturación**: Permite a los usuarios ingresar y registrar sus datos de facturación.
-  
-- **Validar Datos de Facturación**: Verifica que los datos de facturación ingresados sean correctos y completos.
-  
-- **Validar Butacas Disponibles**: Confirma que haya asientos suficientes disponibles antes de completar una reserva.
-  
-- **Validar Edad para Ver la Película**: Verifica que el usuario cumpla con la edad mínima requerida para ver la película seleccionada.
-  
-- **Validar Cantidad de Butacas Disponibles con la Cantidad de Entradas**: Asegura que el número de asientos solicitados coincide con la disponibilidad y el número de entradas compradas.
-  
-- **Aplicar Descuentos**: Implementa descuentos aplicables en la compra de entradas según las políticas definidas.
+- Francisco Kin
+- Franco Pelli
+- Agustina Mieres
+
+Currently maintained and updated by:
+
+- Francisco Kin
+
+## Features
+
+- **Movie Management**
+  - Register movies available in the cinema.
+  - Assign schedules to movies.
+
+- **Room Management**
+  - Create rooms for specific schedules.
+  - Configure rows and seats.
+
+- **User Management**
+  - Register users.
+  - Validate duplicated users.
+
+- **Reservation System**
+  - Check seat availability.
+  - Validate requested seats before completing reservations.
+  - Ensure age requirements are met.
+
+- **Payment Management**
+  - Register billing information.
+  - Validate billing data.
+  - Apply discounts according to defined rules.
+
+## Technologies
+
+- Python
+- Object-Oriented Programming
+- File-based data persistence
