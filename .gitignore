@@ -1,2 +1,48 @@
-**/__pycache__/
 **.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files
+*.sqlite
+*.db
